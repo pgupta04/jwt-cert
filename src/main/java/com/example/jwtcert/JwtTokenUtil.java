@@ -92,11 +92,6 @@ public class JwtTokenUtil {
         System.out.println("\n JWE token : " + jwtString);
         System.out.println("");
 
-        // In order to read back the data from the token using your private RSA key:
-        // parse the JWT text string using EncryptedJWT object
-        jwt = EncryptedJWT.parse(jwtString);
-
-
         System.out.println("");
         System.out.println(
                 "==========================================================================================================");
